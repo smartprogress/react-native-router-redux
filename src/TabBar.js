@@ -16,7 +16,7 @@ const onSelect = props => el => {
 const imageStyle = props => ({
   height: 25,
   resizeMode: 'contain',
-  tintColor: props.selectionColor || '#929292',
+  tintColor: props.selectionColor || '#FFF',
   width: 30,
 });
 
@@ -32,7 +32,7 @@ const tabContainerStyle = () => ({
 });
 
 const textStyle = props => ({
-  color: props.selectionColor || '#929292',
+  color: props.selectionColor || '#FFF',
   fontSize: 10,
   letterSpacing: 0.2,
   marginBottom: 2,
