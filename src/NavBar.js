@@ -1,5 +1,6 @@
 import NavigationBar from 'react-native-navbar';
-import React, { Component, StyleSheet } from 'react-native';
+import { StyleSheet } from 'react-native';
+import React, { Component } from 'react';
 
 const leftButton = (props = {}, transitioning) => {
   if (props.navLeft && props.navLeft._isReactElement) {

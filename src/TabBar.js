@@ -1,5 +1,6 @@
 import Tabs from 'react-native-tabs';
-import React, { Component, Image, StyleSheet, Text, View } from 'react-native';
+import { Image, StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react';
 
 const onSelect = props => el => {
   props.actions.changeTab({
